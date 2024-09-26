@@ -65,14 +65,6 @@ export const PROJECTS = [
       anchor:"",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
   },
-  {
-    title: "E-Commerce Website",
-    image: projectImage1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-      anchor:"",
-    technologies: ["HTML", "CSS", "React", "Framer Motionn", "Hooks"],
-  },
 ];
 
 export const BIO = [
@@ -112,28 +104,21 @@ export const EDUCATION = [
 ];
 
 export const SOCIAL_MEDIA_LINKS = [
+
   {
-    href: "https://x.com/",
-    icon: <FaFacebook fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://x.com/",
-    icon: <FaDiscord fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://x.com/",
+    href: "https://www.instagram.com/anantavigave/",
     icon: <FaInstagram fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://x.com/",
+    href: "https://x.com/AnantaInsights",
     icon: <FaXTwitter fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://github.com/",
+    href: "https://github.com/Ananta2003",
     icon: <FaGithub fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://www.linkedin.com/",
+    href: "https://www.linkedin.com/in/ananta-vigave/",
     icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
   },
 ];
