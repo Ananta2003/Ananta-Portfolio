@@ -8,7 +8,7 @@ import {
 } from "react-icons/fa6";
 
 import projectImage1 from "../assets/project1.png";
-import projectImage2 from "../assets/project2.jpeg";
+import projectImage2 from "../assets/project2.png";
 import projectImage3 from "../assets/project3.jpeg";
 import projectImage4 from "../assets/project4.jpeg";
 // import projectImage5 from "../assets/project5.jpeg";
@@ -42,29 +42,29 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
   },
   {
-    title: "Task Management App",
+    title: "Refokus Replica",
     image: projectImage2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-      anchor:"",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "The Refokus Website showcases my front-end and animation skills. Built using React, Redux and Tailwind CSS, it features smooth animations, responsive design, and interactive elements, highlighting my ability to recreate modern websites with a focus on user experience.",
+      anchor:"https://refokus-home.vercel.app/",
+    technologies: ["React", "Tailwind CSS", "Animation"],
   },
-  {
-    title: "Portfolio Website",
-    image: projectImage3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-      anchor:"",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: projectImage4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-      anchor:"",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+  // {
+  //   title: "Portfolio Website",
+  //   image: projectImage3,
+  //   description:
+  //     "A personal portfolio website showcasing projects, skills, and contact information.",
+  //     anchor:"",
+  //   technologies: ["HTML", "CSS", "React", "Bootstrap"],
+  // },
+  // {
+  //   title: "Blogging Platform",
+  //   image: projectImage4,
+  //   description:
+  //     "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+  //     anchor:"",
+  //   technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+  // },
 ];
 
 export const BIO = [
