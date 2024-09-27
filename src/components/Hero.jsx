@@ -34,12 +34,12 @@ const Hero = () => {
         <div className='mb-8 flex flex-wrap items-center justify-center lg:justify-between lg:gap-20 p-4 tracking-tighter'>
             <section className='flex min-h-screen flex-wrap items-center  tracking-tighter sm:m-10 '>
                 <div content='device-width' className='w-full md:w-1/2 name sm:px-4 '>
-                    <Reveal>
-                        <p className='my-6 p-2 sm:ml-[4rem] md:ml-[1rem] text-2xl font-bold md:text-5xl lg:text-[5.5rem] title '><span className='text-[#01ff96]'>Hey,</span>{HERO.name}</p>
+                    <Reveal >
+                        <p className='my-6 p-2 sm:ml-[10rem] md:ml-[1rem] mt-4 text-2xl font-bold md:text-5xl lg:text-[5.5rem] title '><span className='text-[#01ff96]'>Hey,</span>{HERO.name}</p>
                     </Reveal>
                     <Reveal>
-                        <div className='flex items-baseline sm:ml-[4rem] md:ml-[1rem]'>
-                            <p className='md:text-2xl sm:text-xl p-2 font-light tracking-tighter lg:text-4xl'>{HERO.text}</p>
+                        <div className='flex items-baseline sm:ml-[10rem] md:ml-[1rem]'>
+                            <p className='md:text-2xl sm:text-xl  font-light tracking-tighter lg:text-4xl'>{HERO.text}</p>
                             <p className='p-2 ml-2 sm:text-xl text-3xl text-[#01ff96] font-extrabold tracking-tighter lg:text-4xl'>
                                 {HERO.greet}
                             </p>
@@ -47,13 +47,13 @@ const Hero = () => {
 
                     </Reveal>
                     <Reveal>
-                        <div className='tracking-tighter h-auto md:ml-[1rem] sm:mx-[4rem]'>
+                        <div className='tracking-tighter h-auto md:ml-[1rem] sm:mx-[10rem]'>
                             <p className='p-2 text-xl md:text-xl mb-8 sm:text-sm  tracking-tighter'>
                                 {HERO.description}
                             </p>
                         </div>
                     </Reveal>
-                    <a className='sm:mx-[4rem]' href="#contact"><button className='bg-[#01ff96]  m-2 font-bold text-xl px-8 py-4 tracking-tighter  rounded-md text-black sm:ml-[4rem] md:m-0' >Contact Me</button></a>
+                    <a className='sm:mx-[4rem]' href="#contact"><button className='bg-[#01ff96]  m-2 font-bold text-xl px-8 py-4 tracking-tighter  rounded-md text-black sm:mx-[5rem] md:m-0' >Contact Me</button></a>
 
                 </div>
                 <div className=' w-full md:w-1/2  '>
